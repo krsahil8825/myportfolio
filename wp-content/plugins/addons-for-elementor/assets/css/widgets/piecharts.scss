@@ -1,0 +1,98 @@
+@import "../lae-lib";
+
+/*--------------------------------- Pie Charts -------------------------------------- */
+.lae-piecharts {
+  clear: both;
+}
+
+.lae-piechart {
+  position: relative;
+  text-align: center;
+  overflow: hidden;
+
+  canvas {
+    position: relative;
+    top: 0;
+    left: 0;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+
+  .lae-label {
+    text-align: center;
+    color: #888;
+
+    .lae-dark-bg & {
+      color: $dark-bg-secondary-text;
+    }
+  }
+
+  .lae-percentage {
+    span {
+      position: absolute;
+      top: 25%;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 60px;
+      line-height: 60px;
+      font-weight: 300;
+      text-align: center;
+      color: #333;
+      font-weight: bolder;
+
+      .lae-dark-bg & {
+        color: $dark-bg-primary-text;
+      }
+    }
+
+    sup {
+      font-size: 18px;
+      vertical-align: middle;
+    }
+  }
+
+  .lae-piecharts-style1 & {
+    .lae-label {
+      position: absolute;
+      left: 0;
+      right: 0;
+      margin-left: auto;
+      margin-right: auto;
+      top: 55%;
+      max-width: 65%;
+    }
+  }
+
+  .lae-piecharts-style2 & {
+    .lae-label {
+      margin-top: 20px;
+      font-size: large;
+    }
+    .lae-percentage {
+      position: relative;
+      line-height: 1;
+      span {
+        top: 50%;
+        transform: translateY(-50%);
+      }
+    }
+  }
+
+  &.dark-bg {
+    .lae-label {
+      color: #fff;
+    }
+
+    .lae-percentage span {
+      color: #eee;
+    }
+  }
+}
+
+@media only screen and (max-width: 479px) {
+  .lae-piechart canvas {
+    margin-bottom: 15px;
+  }
+}

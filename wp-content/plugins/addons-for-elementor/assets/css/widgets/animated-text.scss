@@ -1,0 +1,50 @@
+@import "../lae-lib";
+
+/* ---------------------------------- Animated Text Widget ---------------------------------- */
+
+.lae-animated-text {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: bold;
+  display: flex;
+
+  &.lae-align-left {
+    justify-content: flex-start;
+  }
+
+  &.lae-align-right {
+    justify-content: flex-end;
+  }
+
+  &.lae-align-center {
+    justify-content: center;
+  }
+
+  .lae-animated-text-items {
+    display: grid;
+    padding: 0 10px;
+
+    .lae-animated-text-item {
+      grid-area: 1 / 1;
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      flex-wrap: wrap;
+
+      span {
+        display: block;
+        position: relative;
+        white-space: pre;
+        opacity: 0;
+        display: none;
+      }
+
+      &.lae-visible span {
+        display: block;
+      }
+    }
+  }
+}
+
+
+

@@ -1,0 +1,43 @@
+
+@import "../lae-lib";
+
+/* ---------------------------------- Device Slider Widget ---------------------------------- */
+
+
+.lae-device-slider {
+  position: relative;
+  margin: auto;
+  .lae-device-image {
+    position: relative;
+    pointer-events: none;
+    z-index: 8;
+    img {
+      width: 100%;
+    }
+  }
+  .lae-device-slides {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 4;
+  }
+  .slick-list {
+    overflow: hidden;
+    height: 100%;
+    .slick-track, .slick-slide > div {
+      height: 100%;
+      overflow: hidden;
+    }
+  }
+  .lae-device-slide {
+    height: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+      max-width: none;
+      object-fit: cover;
+    }
+  }
+}

@@ -1,0 +1,94 @@
+/* ---------------------------------- Marquee Text Widget ---------------------------------- */
+.lae-marquee-text-container {
+  position: relative;
+  display: inline-block;
+  width: 100%;
+  vertical-align: top;
+  overflow: hidden;
+}
+
+.lae-marquee-text-content {
+  display: flex;
+  white-space: nowrap;
+  font-size: 0;
+  overflow: hidden;
+}
+.lae-marquee-text-content .lae-marquee-text-items {
+  display: flex;
+  align-items: center;
+}
+.lae-marquee-text-content .lae-marquee-text-items:hover {
+  animation-play-state: paused;
+}
+.lae-marquee-text-content .lae-marquee-text-items .lae-marquee-text {
+  font-size: 96px;
+  line-height: 1.2;
+  padding: 0;
+  transition: color 0.3s ease-out;
+}
+.lae-marquee-text-content .lae-marquee-text-items .lae-marquee-subtext {
+  font-size: 24px;
+  line-height: 1.4;
+}
+.lae-marquee-text-content .lae-marquee-text-items .lae-separator-icon {
+  align-self: center;
+}
+.lae-marquee-text-content .lae-marquee-text-items .lae-separator-icon .lae-icon-wrapper, .lae-marquee-text-content .lae-marquee-text-items .lae-separator-icon .lae-image-wrapper {
+  display: flex;
+  align-items: center;
+}
+.lae-marquee-text-content .lae-marquee-text-items .lae-separator-icon .lae-icon-wrapper i, .lae-marquee-text-content .lae-marquee-text-items .lae-separator-icon .lae-icon-wrapper svg {
+  font-size: 30px;
+}
+.lae-marquee-text-content .lae-marquee-text-items .lae-separator-icon .lae-image-wrapper img {
+  max-width: 100px;
+  height: auto;
+}
+.lae-marquee-text-content .lae-marquee-text-items:not(.lae-clone) {
+  animation: lae-horizontal-scroll 20s linear infinite;
+}
+.lae-marquee-text-content .lae-marquee-text-items.lae-clone {
+  position: absolute;
+  top: 0;
+  left: 0;
+  will-change: transform;
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
+  transform: translateX(100%);
+  animation: lae-horizontal-scroll-alt 20s linear infinite;
+}
+
+@keyframes lae-horizontal-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+@keyframes lae-horizontal-scroll-alt {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+@keyframes lae-horizontal-reverse-scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(100%);
+  }
+}
+@keyframes lae-horizontal-reverse-scroll-alt {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/*# sourceMappingURL=marquee-text.css.map */

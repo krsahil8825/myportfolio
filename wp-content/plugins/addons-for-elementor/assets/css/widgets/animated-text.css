@@ -1,0 +1,39 @@
+/* ---------------------------------- Animated Text Widget ---------------------------------- */
+.lae-animated-text {
+  font-size: 28px;
+  line-height: 1.2;
+  font-weight: bold;
+  display: flex;
+}
+.lae-animated-text.lae-align-left {
+  justify-content: flex-start;
+}
+.lae-animated-text.lae-align-right {
+  justify-content: flex-end;
+}
+.lae-animated-text.lae-align-center {
+  justify-content: center;
+}
+.lae-animated-text .lae-animated-text-items {
+  display: grid;
+  padding: 0 10px;
+}
+.lae-animated-text .lae-animated-text-items .lae-animated-text-item {
+  grid-area: 1/1;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.lae-animated-text .lae-animated-text-items .lae-animated-text-item span {
+  display: block;
+  position: relative;
+  white-space: pre;
+  opacity: 0;
+  display: none;
+}
+.lae-animated-text .lae-animated-text-items .lae-animated-text-item.lae-visible span {
+  display: block;
+}
+
+/*# sourceMappingURL=animated-text.css.map */

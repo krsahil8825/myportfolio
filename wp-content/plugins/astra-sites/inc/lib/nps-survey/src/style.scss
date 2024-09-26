@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+#nps-survey-root {
+	@apply text-base;
+	* {
+		@apply box-border font-sans;
+	}
+}

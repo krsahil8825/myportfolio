@@ -1,0 +1,2792 @@
+# Copyright (C) 2024 Brainstorm Force
+# This file is distributed under the same license as the Starter Templates plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Starter Templates 4.3.9\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/astra-sites\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2024-08-07T11:03:41+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: astra-sites\n"
+
+#. Plugin Name of the plugin
+#: astra-sites.php
+#: astra-sites.php:36
+#: astra-sites.php:107
+#: inc/classes/class-astra-sites.php:2447
+#: inc/lib/onboarding/class-onboarding-loader.php:77
+#: inc/lib/nps-survey/dist/main.js:1
+#: inc/lib/nps-survey/src/components/steps/nps-rating.jsx:50
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Starter Templates"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: astra-sites.php
+msgid "https://wpastra.com/"
+msgstr ""
+
+#. Description of the plugin
+#: astra-sites.php
+msgid "Starter Templates is all in one solution for complete starter sites, single page templates, blocks & images. This plugin offers the premium library of ready templates & provides quick access to beautiful Pixabay images that can be imported in your website easily."
+msgstr ""
+
+#. Author of the plugin
+#: astra-sites.php
+msgid "Brainstorm Force"
+msgstr ""
+
+#. Author URI of the plugin
+#: astra-sites.php
+msgid "https://www.brainstormforce.com"
+msgstr ""
+
+#: classes/class-astra-sites-admin.php:109
+msgid "Get unlimited access to all premium Starter Templates and more, at a single low cost!"
+msgstr ""
+
+#: classes/class-astra-sites-admin.php:110
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:144
+msgid "Get Essential Toolkit"
+msgstr ""
+
+#: inc/classes/class-astra-sites-error-handler.php:110
+#: inc/lib/ai-builder/inc/classes/importer/class-ai-builder-error-handler.php:98
+#: inc/lib/starter-templates-importer/resetter/st-resetter.php:314
+msgid "There was an error on your website."
+msgstr ""
+
+#: inc/classes/class-astra-sites-error-handler.php:150
+#: inc/lib/ai-builder/inc/classes/importer/class-ai-builder-error-handler.php:140
+#: inc/lib/starter-templates-importer/resetter/st-resetter.php:283
+msgid "There was an error your website."
+msgstr ""
+
+#. translators: %1$s refers to the plugin name
+#: inc/classes/class-astra-sites-importer-log.php:102
+#: inc/lib/ai-builder/inc/classes/ai-builder-importer-log.php:80
+msgid "Required File Permissions to import the templates from %s are missing."
+msgstr ""
+
+#: inc/classes/class-astra-sites-importer-log.php:107
+#: inc/lib/ai-builder/inc/classes/ai-builder-importer-log.php:85
+msgid "This is usually due to inconsistent file permissions."
+msgstr ""
+
+#: inc/classes/class-astra-sites-importer-log.php:110
+#: inc/lib/ai-builder/inc/classes/ai-builder-importer-log.php:88
+msgid "You can easily update permissions by adding the following code into the wp-config.php file."
+msgstr ""
+
+#: inc/classes/class-astra-sites-importer-log.php:281
+#: inc/lib/ai-builder/inc/classes/ai-builder-importer-log.php:285
+msgid "Enabled"
+msgstr ""
+
+#: inc/classes/class-astra-sites-importer-log.php:284
+#: inc/lib/ai-builder/inc/classes/ai-builder-importer-log.php:288
+msgid "Disabled"
+msgstr ""
+
+#. translators: %1$s Memory Limit, %2$s Recommended memory limit.
+#: inc/classes/class-astra-sites-importer-log.php:302
+#: inc/lib/ai-builder/inc/classes/ai-builder-importer-log.php:306
+msgctxt "Recommended Memory Limit"
+msgid "Current memory limit %1$s. We recommend setting memory to at least %2$s."
+msgstr ""
+
+#: inc/classes/class-astra-sites-importer-log.php:369
+#: inc/classes/class-astra-sites-importer-log.php:426
+#: inc/lib/ai-builder/inc/classes/ai-builder-importer-log.php:373
+#: inc/lib/ai-builder/inc/classes/ai-builder-importer-log.php:430
+msgid "Yes"
+msgstr ""
+
+#: inc/classes/class-astra-sites-importer-log.php:372
+#: inc/classes/class-astra-sites-importer-log.php:429
+#: inc/lib/ai-builder/inc/classes/ai-builder-importer-log.php:376
+#: inc/lib/ai-builder/inc/classes/ai-builder-importer-log.php:433
+msgid "No"
+msgstr ""
+
+#: inc/classes/class-astra-sites-importer-log.php:383
+#: inc/lib/ai-builder/inc/classes/ai-builder-importer-log.php:387
+msgctxt "PHP Version"
+msgid "We recommend to use php 5.4 or higher"
+msgstr ""
+
+#: inc/classes/class-astra-sites-importer-log.php:444
+#: inc/lib/ai-builder/inc/classes/ai-builder-importer-log.php:448
+msgid "You currently have no scheduled cron events."
+msgstr ""
+
+#: inc/classes/class-astra-sites-importer.php:91
+#: inc/classes/class-astra-sites-importer.php:135
+#: inc/classes/class-astra-sites-importer.php:174
+#: inc/classes/class-astra-sites-importer.php:317
+#: inc/classes/class-astra-sites-importer.php:422
+#: inc/classes/class-astra-sites-page.php:190
+#: inc/classes/class-astra-sites.php:232
+#: inc/classes/class-astra-sites.php:601
+#: inc/classes/class-astra-sites.php:1015
+#: inc/classes/class-astra-sites.php:1110
+#: inc/classes/class-astra-sites.php:1141
+#: inc/classes/class-astra-sites.php:1341
+#: inc/importers/batch-processing/class-astra-sites-batch-processing.php:886
+#: inc/importers/batch-processing/class-astra-sites-batch-processing.php:904
+#: inc/lib/ai-builder/inc/ajax/importer.php:139
+#: inc/lib/ai-builder/inc/ajax/importer.php:195
+#: inc/lib/ai-builder/inc/ajax/importer.php:218
+#: inc/lib/ai-builder/inc/ajax/importer.php:357
+#: inc/lib/ai-builder/inc/ajax/importer.php:409
+#: inc/lib/ai-builder/inc/ajax/importer.php:441
+#: inc/lib/ai-builder/inc/ajax/plugin.php:120
+#: inc/lib/ai-builder/inc/ajax/plugin.php:313
+#: inc/lib/ai-builder/inc/ajax/plugin.php:342
+#: inc/lib/ai-builder/inc/ajax/plugin.php:347
+#: inc/lib/ai-builder/inc/traits/helper.php:593
+#: inc/lib/ai-builder/inc/traits/helper.php:637
+#: inc/lib/ai-builder/inc/traits/helper.php:677
+#: inc/lib/ai-builder/inc/traits/helper.php:710
+#: inc/lib/ai-builder/inc/traits/helper.php:742
+#: inc/lib/ai-builder/inc/traits/helper.php:776
+#: inc/lib/ai-builder/inc/traits/helper.php:812
+#: inc/lib/gutenberg-templates/inc/importer/plugin.php:244
+#: inc/lib/gutenberg-templates/inc/importer/plugin.php:292
+#: inc/lib/gutenberg-templates/inc/importer/plugin.php:336
+#: inc/lib/gutenberg-templates/inc/importer/plugin.php:360
+#: inc/lib/gutenberg-templates/inc/importer/plugin.php:450
+#: inc/lib/gutenberg-templates/inc/importer/plugin.php:792
+#: inc/lib/gutenberg-templates/inc/importer/sync-library.php:319
+#: inc/lib/gutenberg-templates/inc/importer/sync-library.php:446
+#: inc/lib/gutenberg-templates/inc/importer/sync-library.php:471
+#: inc/lib/gutenberg-templates/inc/importer/sync-library.php:514
+#: inc/lib/gutenberg-templates/inc/importer/sync-library.php:805
+#: inc/lib/gutenberg-templates/inc/importer/sync-library.php:840
+#: inc/lib/gutenberg-templates/inc/importer/template-kit-importer.php:43
+#: inc/lib/gutenberg-templates/inc/importer/template-kit-importer.php:109
+#: inc/lib/gutenberg-templates/inc/traits/upgrade.php:33
+#: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php:78
+#: inc/lib/zipwp-images/classes/zipwp-images-api.php:263
+msgid "You are not allowed to perform this action"
+msgstr ""
+
+#. Translators: %s is WP Forms URL.
+#: inc/classes/class-astra-sites-importer.php:329
+msgid "Invalid WPform Request URL - %s"
+msgstr ""
+
+#: inc/classes/class-astra-sites-importer.php:388
+msgid "Invalid JSON file for WP Forms."
+msgstr ""
+
+#: inc/classes/class-astra-sites-importer.php:391
+#: inc/classes/class-astra-sites-importer.php:394
+msgid "There was an error downloading the WP Forms file."
+msgstr ""
+
+#: inc/classes/class-astra-sites-importer.php:453
+msgid "Invalid file for CartFlows flows"
+msgstr ""
+
+#: inc/classes/class-astra-sites-importer.php:456
+#: inc/classes/class-astra-sites-importer.php:459
+msgid "There was an error downloading the CartFlows flows file."
+msgstr ""
+
+#: inc/classes/class-astra-sites-importer.php:462
+msgid "Empty file for CartFlows flows"
+msgstr ""
+
+#. translators: %1$s is the admin page URL, %2$s is product name.
+#: inc/classes/class-astra-sites-page.php:96
+msgid "Thank you for choosing %1$s! Check the library of <a class=\"astra-sites-getting-started-btn\" href=\"%2$s\">ready starter templates here »</a>"
+msgstr ""
+
+#: inc/classes/class-astra-sites-page.php:206
+msgid "Notice Dismissed!"
+msgstr ""
+
+#: inc/classes/class-astra-sites-page.php:319
+#: inc/classes/class-astra-sites-page.php:321
+#: inc/classes/class-astra-sites-page.php:333
+#: inc/includes/templates.php:28
+#: inc/includes/templates.php:35
+msgid "All"
+msgstr ""
+
+#: inc/classes/class-astra-sites-page.php:338
+#: inc/includes/templates.php:29
+msgid "Free"
+msgstr ""
+
+#. translators: %1$s are white label strings.
+#: inc/classes/class-astra-sites-page.php:343
+#: inc/includes/templates.php:30
+#: inc/includes/templates.php:200
+#: inc/includes/templates.php:327
+#: inc/includes/templates.php:419
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:73
+msgid "Premium"
+msgstr ""
+
+#: inc/classes/class-astra-sites-page.php:351
+#: inc/includes/templates.php:44
+msgid "Search..."
+msgstr ""
+
+#: inc/classes/class-astra-sites-page.php:425
+msgid "Gutenberg"
+msgstr ""
+
+#: inc/classes/class-astra-sites-page.php:427
+msgid "The default WordPress editor"
+msgstr ""
+
+#: inc/classes/class-astra-sites-page.php:431
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Elementor"
+msgstr ""
+
+#: inc/classes/class-astra-sites-page.php:436
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Beaver Builder"
+msgstr ""
+
+#: inc/classes/class-astra-sites-page.php:441
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "Brizy"
+msgstr ""
+
+#. translators: 1: The number of years in an interval of time.
+#: inc/classes/class-astra-sites-page.php:489
+msgid "%s year"
+msgid_plural "%s years"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: The number of months in an interval of time.
+#: inc/classes/class-astra-sites-page.php:491
+msgid "%s month"
+msgid_plural "%s months"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: The number of weeks in an interval of time.
+#: inc/classes/class-astra-sites-page.php:493
+msgid "%s week"
+msgid_plural "%s weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: The number of days in an interval of time.
+#: inc/classes/class-astra-sites-page.php:495
+msgid "%s day"
+msgid_plural "%s days"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: The number of hours in an interval of time.
+#: inc/classes/class-astra-sites-page.php:497
+msgid "%s hour"
+msgid_plural "%s hours"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: The number of minutes in an interval of time.
+#: inc/classes/class-astra-sites-page.php:499
+msgid "%s minute"
+msgid_plural "%s minutes"
+msgstr[0] ""
+msgstr[1] ""
+
+#. translators: 1: The number of seconds in an interval of time.
+#: inc/classes/class-astra-sites-page.php:501
+msgid "%s second"
+msgid_plural "%s seconds"
+msgstr[0] ""
+msgstr[1] ""
+
+#: inc/classes/class-astra-sites-page.php:505
+msgid "now"
+msgstr ""
+
+#: inc/classes/class-astra-sites-page.php:559
+msgid "ERROR! Cron schedules are disabled by setting constant DISABLE_WP_CRON to true.<br/>To start the import process please enable the cron by setting the constant to false. E.g. define( 'DISABLE_WP_CRON', false );"
+msgstr ""
+
+#: inc/classes/class-astra-sites-page.php:563
+msgid "ERROR! Cron schedules are disabled by setting constant ALTERNATE_WP_CRON to true.<br/>To start the import process please enable the cron by setting the constant to false. E.g. define( 'ALTERNATE_WP_CRON', false );"
+msgstr ""
+
+#. translators: 1: The HTTP response code.
+#: inc/classes/class-astra-sites-page.php:599
+msgid "Unexpected HTTP response code: %s"
+msgstr ""
+
+#. translators: %1$s product name
+#: inc/classes/class-astra-sites-white-label.php:240
+msgid "%1$s Branding"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:124
+msgid "No sites found! Try another query."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:160
+msgid "Are you sure you want to import the site?"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:166
+#: inc/classes/class-astra-sites-wp-cli.php:432
+msgid "Invalid Site ID,"
+msgstr ""
+
+#. Translators: %s is the error message.
+#: inc/classes/class-astra-sites-wp-cli.php:176
+msgid "Site Import failed due to error: %s"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:188
+msgid "This is Premium site. Please activate the \"Starter Templates\" license!"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:189
+msgid "Use `wp plugin deactivate astra-sites` and then `wp plugin activate astra-pro-sites`"
+msgstr ""
+
+#. translators: %s is the activate plugin license link.
+#: inc/classes/class-astra-sites-wp-cli.php:193
+msgid "Use CLI command `wp brainstormforce license activate astra-pro-sites {YOUR_LICENSE_KEY}`"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:211
+msgid "Installing Plugins.."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:226
+msgid "Activating Plugins.."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:278
+msgid "Importing Site Options.."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:286
+msgid "Importing Widgets.."
+msgstr ""
+
+#. translators: %s is the site URL.
+#: inc/classes/class-astra-sites-wp-cli.php:296
+msgid ""
+"Site Imported Successfully!\n"
+"Visit: %s"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:331
+msgid "Invalid XML URL."
+msgstr ""
+
+#. translators: %s is the XML file URL.
+#: inc/classes/class-astra-sites-wp-cli.php:336
+msgid "Downloading %s"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:340
+msgid "Importing WXR.."
+msgstr ""
+
+#. translators: %s is error message.
+#: inc/classes/class-astra-sites-wp-cli.php:344
+msgid "WXR file Download Failed. Error %s"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:371
+msgid "Are you sure you want to delete imported site data?"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:379
+msgid "Reseting Posts.."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:386
+msgid "Reseting Terms.."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:393
+msgid "Resting WP Forms..."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:437
+msgid "Importing customizer settings.."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:487
+msgid "Please add valid parameter."
+msgstr ""
+
+#. translators: %s is the current page builder name.
+#: inc/classes/class-astra-sites-wp-cli.php:504
+msgid "Default page builder is \"%s\"."
+msgstr ""
+
+#. translators: %s is the page builder name.
+#: inc/classes/class-astra-sites-wp-cli.php:512
+msgid "\"%s\" is set as default page builder."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:515
+msgid ""
+"Invalid page builder slug. \n"
+"Check all page builder slugs with command `wp astra-sites page_builder list`"
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:518
+msgid ""
+"Invalid parameter! \n"
+"Please use `list` or `set` parameter."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:573
+msgid "This page builder plugin is not installed. Please try a different page builder."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:582
+msgid "This site type does not exist. Please try a different site type."
+msgstr ""
+
+#: inc/classes/class-astra-sites-wp-cli.php:591
+msgid "This site category does not exist. Please try a different site category."
+msgstr ""
+
+#. Translators: %s Plugin Name.
+#: inc/classes/class-astra-sites.php:213
+msgid "%s: XMLReader extension is missing! To import templates, please get in touch with your hosting provider to enable this extension."
+msgstr ""
+
+#. translators: %d is the Template ID.
+#: inc/classes/class-astra-sites.php:537
+msgid "Invalid Template ID - %d"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:616
+#: inc/classes/class-astra-sites.php:1036
+msgid "Invalid API URL."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:628
+msgid "Invalid Post Meta"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:635
+msgid "Invalid Post ID or Elementor Meta"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:679
+msgid "Provided API URL is empty! Please try again!"
+msgstr ""
+
+#. Translators: %s is API URL.
+#: inc/classes/class-astra-sites.php:698
+msgid "Invalid API Request URL - %s"
+msgstr ""
+
+#. translators: %s Error Message
+#: inc/classes/class-astra-sites.php:721
+#: inc/classes/class-astra-sites.php:837
+msgid "API Request could not be performed - %s"
+msgstr ""
+
+#. translators: %s Error Message
+#: inc/classes/class-astra-sites.php:726
+#: inc/classes/class-astra-sites.php:842
+msgid "API Request has failed - %s"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:756
+#: inc/classes/class-astra-sites.php:871
+msgid "Internal Server Error."
+msgstr ""
+
+#. translators: %s IP address.
+#: inc/classes/class-astra-sites.php:762
+#: inc/classes/class-astra-sites.php:877
+msgid "Client IP: %1$s </br> Error code: %2$s"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:795
+msgid "Provided API details are empty! Please try again!"
+msgstr ""
+
+#. Translators: %s is Request URL.
+#. Translators: %s is API URL.
+#: inc/classes/class-astra-sites.php:814
+#: inc/lib/gutenberg-templates/inc/importer/template-kit-importer.php:56
+msgid "Invalid Request URL - %s"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1149
+#: inc/lib/zipwp-images/classes/zipwp-images-api.php:275
+msgid "Need to send URL of the image to be downloaded"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1174
+#: inc/lib/zipwp-images/classes/zipwp-images-api.php:285
+msgid "Could not download the image."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1433
+msgid "Get Started"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1643
+#: inc/classes/class-astra-sites.php:2090
+#: inc/includes/templates.php:321
+msgid "Get Access!"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1645
+msgid "Upgrade"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1649
+msgid "Syncing template library in the background. The process can take anywhere between 2 to 3 minutes. We will notify you once done."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1650
+msgid "Some of the files required during the import process are missing.<br/><br/>Please try again after some time."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1651
+msgid "<p>WordPress debug mode is currently enabled on your website. This has interrupted the import process..</p><p>Kindly disable debug mode and try importing Starter Template again.</p><p>You can add the following code into the wp-config.php file to disable debug mode.</p><p><code>define('WP_DEBUG', false);</code></p>"
+msgstr ""
+
+#. translators: %s is a documentation link.
+#: inc/classes/class-astra-sites.php:1653
+msgid "<p>We are facing a temporary issue in importing this template.</p><p>Read <a href=\"%s\" target=\"_blank\">article</a> to resolve the issue and continue importing template.</p>"
+msgstr ""
+
+#. translators: %s is a documentation link.
+#: inc/classes/class-astra-sites.php:1655
+msgid "<p>We are facing a temporary issue in installing the required plugins for this template.</p><p>Read&nbsp;<a href=\"%s\" target=\"_blank\">article</a>&nbsp;to resolve the issue and continue importing template.</p>"
+msgstr ""
+
+#. translators: %s are white label strings.
+#: inc/classes/class-astra-sites.php:1659
+msgid "Warning! %1$s Import process is not complete. Don't close the window until import process complete. Do you still want to leave the window?"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1660
+msgid "Done! View Site"
+msgstr ""
+
+#. translators: %s is a template name
+#: inc/classes/class-astra-sites.php:1663
+msgid "Import \"%s\" Template"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1666
+msgid "Installing Required Plugins.."
+msgstr ""
+
+#. translators: %s are white label strings.
+#: inc/classes/class-astra-sites.php:1668
+msgid "Installing %1$s Theme.."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1691
+msgid "Dismiss this notice."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1693
+msgid "One Last Step.."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1694
+msgid "Your Selected Website is Being Imported."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1695
+msgid "Your Selected Template is Being Imported."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1697
+msgid "We have sent you a surprise gift on your email address! Please check your inbox!"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1699
+msgid "Looks like the template you are importing is temporarily not available."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1700
+msgid "We could not start the import process and this is the message from WordPress:"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1701
+msgid "There was an error connecting to the Starter Templates API."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1702
+msgid "There was an error while importing the content."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1703
+msgid "To import content, WordPress needs to store XML file in /wp-content/ folder. Please get in touch with your hosting provider."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1704
+msgid "Looks like your host probably could not store XML file in /wp-content/ folder."
+msgstr ""
+
+#. translators: %s HTML tags
+#: inc/classes/class-astra-sites.php:1706
+msgid "%1$sWe could not start the import process due to failed AJAX request and this is the message from WordPress:%2$s"
+msgstr ""
+
+#. translators: %s URL to document.
+#: inc/classes/class-astra-sites.php:1708
+msgid "%1$sRead&nbsp;<a href=\"%2$s\" target=\"_blank\">article</a>&nbsp;to resolve the issue and continue importing template.%3$s"
+msgstr ""
+
+#. translators: %s URL to document.
+#: inc/classes/class-astra-sites.php:1717
+msgid "%1$sWe could not complete the import process due to failed AJAX request and this is the message:%2$s"
+msgstr ""
+
+#. translators: %s URL to document.
+#: inc/classes/class-astra-sites.php:1719
+msgid "%1$sPlease report this <a href=\"%2$s\" target=\"_blank\">here</a>.%3$s"
+msgstr ""
+
+#. translators: %s Anchor link to support URL.
+#: inc/classes/class-astra-sites.php:1724
+msgid "Please report this error %1$shere%2$s, so we can fix it."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1941
+msgid "XMLReader Support Missing"
+msgstr ""
+
+#. translators: %s doc link.
+#: inc/classes/class-astra-sites.php:1943
+msgid "You're close to importing the template. To complete the process, enable XMLReader support on your website.."
+msgstr ""
+
+#. translators: %s doc link.
+#: inc/classes/class-astra-sites.php:1943
+#: inc/classes/class-astra-sites.php:1948
+#: inc/classes/class-astra-sites.php:1953
+#: inc/classes/class-astra-sites.php:1971
+msgid "Read an article <a href=\"%s\" target=\"_blank\">here</a> to resolve the issue."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1946
+msgid "cURL Support Missing"
+msgstr ""
+
+#. translators: %s doc link.
+#: inc/classes/class-astra-sites.php:1948
+msgid "To run a smooth import, kindly enable cURL support on your website."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1951
+msgid "Disable Debug Mode"
+msgstr ""
+
+#. translators: %s doc link.
+#: inc/classes/class-astra-sites.php:1953
+msgid "WordPress debug mode is currently enabled on your website. With this, any errors from third-party plugins might affect the import process."
+msgstr ""
+
+#. translators: %s doc link.
+#: inc/classes/class-astra-sites.php:1953
+msgid "Kindly disable it to continue importing the Starter Template. To do so, you can add the following code into the wp-config.php file."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1956
+msgid "Update Plugin"
+msgstr ""
+
+#. translators: %s update page link.
+#: inc/classes/class-astra-sites.php:1958
+msgid "Updates are available for plugins used in this starter template."
+msgstr ""
+
+#. translators: %s update page link.
+#: inc/classes/class-astra-sites.php:1958
+msgid "Kindly <a href=\"%s\" target=\"_blank\">update</a> them for a successful import. Skipping this step might break the template design/feature."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1961
+#: inc/includes/templates.php:468
+msgid "Required Plugins Missing"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1962
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "This starter template requires premium plugins. As these are third party premium plugins, you'll need to purchase, install and activate them first."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1965
+msgid "Dynamic Page"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1966
+msgid "The page template you are about to import contains a dynamic widget/module. Please note this dynamic data will not be available with the imported page."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1966
+msgid "You will need to add it manually on the page."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1966
+msgid "This dynamic content will be available when you import the entire site."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:1969
+msgid "Enable Flexbox Container from Elementor"
+msgstr ""
+
+#. translators: %s doc link.
+#: inc/classes/class-astra-sites.php:1971
+msgid "The Flexbox Container widget is disabled on your website. With this disabled, the import process will be affected. Kindly enable it to continue importing the Starter Template."
+msgstr ""
+
+#. translators: %s are link.
+#: inc/classes/class-astra-sites.php:2057
+msgid "This is a premium template available with Essential and Business Toolkits. you can purchase it from <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr ""
+
+#. translators: %s are link.
+#: inc/classes/class-astra-sites.php:2061
+msgid "This is a premium template available with Essential and Business Toolkits. <a href=\"%s\" target=\"_blank\">Validate Your License</a> Key to import this template."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:2094
+msgid "Template"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:2095
+msgid "Block"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:2096
+#: inc/includes/templates.php:78
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Dismiss"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:2097
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "Install Required Plugins"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:2101
+msgid "You can locate <strong>Starter Templates Settings</strong> under the <strong>Page Settings</strong> of the Style Tab."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:2103
+msgid "Read More →"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:2375
+msgid "Template library refreshed!"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:2449
+msgid "Build Your Dream Site in Minutes With AI"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:2450
+msgid "Say goodbye to the days of spending weeks designing and building your website.<br/> You can now create professional-grade websites in minutes."
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:2452
+msgid "Let’s Get Started"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:2453
+msgid "I want to build this website from scratch"
+msgstr ""
+
+#: inc/classes/class-astra-sites.php:2487
+msgid "Required WP_Filesystem Permissions to import the templates from Starter Templates are missing."
+msgstr ""
+
+#: inc/importers/batch-processing/class-astra-sites-batch-processing.php:893
+#: inc/importers/batch-processing/class-astra-sites-batch-processing.php:911
+#: inc/lib/gutenberg-templates/inc/importer/plugin.php:761
+msgid "You are not allowed to perform this action."
+msgstr ""
+
+#: inc/importers/class-astra-widget-importer.php:94
+#: inc/lib/starter-templates-importer/importer/st-widget-importer.php:93
+msgid "Import data could not be read. Please try a different file."
+msgstr ""
+
+#: inc/importers/class-astra-widget-importer.php:138
+#: inc/lib/starter-templates-importer/importer/st-widget-importer.php:140
+msgid "Widget area does not exist in theme (using Inactive)"
+msgstr ""
+
+#: inc/importers/class-astra-widget-importer.php:160
+#: inc/lib/starter-templates-importer/importer/st-widget-importer.php:162
+msgid "Site does not support widget"
+msgstr ""
+
+#: inc/importers/class-astra-widget-importer.php:196
+#: inc/lib/starter-templates-importer/importer/st-widget-importer.php:198
+msgid "Widget already exists"
+msgstr ""
+
+#: inc/importers/class-astra-widget-importer.php:265
+#: inc/lib/starter-templates-importer/importer/st-widget-importer.php:267
+msgid "Imported"
+msgstr ""
+
+#: inc/importers/class-astra-widget-importer.php:268
+#: inc/lib/starter-templates-importer/importer/st-widget-importer.php:270
+msgid "Imported to Inactive"
+msgstr ""
+
+#: inc/importers/class-astra-widget-importer.php:274
+#: inc/lib/starter-templates-importer/importer/st-widget-importer.php:276
+msgid "No Title"
+msgstr ""
+
+#: inc/includes/image-templates.php:58
+#: inc/includes/image-templates.php:98
+#: inc/includes/templates.php:255
+#: inc/includes/templates.php:338
+#: inc/includes/templates.php:431
+#: inc/includes/templates.php:489
+msgid "Sorry No Results Found."
+msgstr ""
+
+#: inc/includes/image-templates.php:88
+msgid "SafeSearch"
+msgstr ""
+
+#: inc/includes/image-templates.php:92
+msgid "Powered by"
+msgstr ""
+
+#. translators: %1$s External Link
+#: inc/includes/image-templates.php:102
+#: inc/includes/templates.php:344
+#: inc/includes/templates.php:498
+msgid "Don't see a template you would like to import?<br><a target=\"_blank\" href=\"%1$s\">Make a Template Suggestion!</a>"
+msgstr ""
+
+#: inc/includes/image-templates.php:126
+msgid "Back to Images"
+msgstr ""
+
+#: inc/includes/image-templates.php:136
+msgid "Already Saved"
+msgstr ""
+
+#: inc/includes/image-templates.php:138
+msgid "Save & Insert"
+msgstr ""
+
+#: inc/includes/templates.php:45
+msgid "SEARCH"
+msgstr ""
+
+#: inc/includes/templates.php:57
+msgid "We've observed that the 'Flexbox Container' setting in your Elementor configuration is currently inactive. To ensure a seamless import, please active this option."
+msgstr ""
+
+#: inc/includes/templates.php:60
+msgid "Activate it!"
+msgstr ""
+
+#: inc/includes/templates.php:104
+msgid "Filter by Color"
+msgstr ""
+
+#: inc/includes/templates.php:112
+msgid "Back to Pages"
+msgstr ""
+
+#: inc/includes/templates.php:134
+msgid "Back to Layout"
+msgstr ""
+
+#: inc/includes/templates.php:138
+msgid "Pages"
+msgstr ""
+
+#: inc/includes/templates.php:139
+msgid "Blocks"
+msgstr ""
+
+#: inc/includes/templates.php:144
+#: inc/includes/templates.php:145
+msgid "Close"
+msgstr ""
+
+#: inc/includes/templates.php:149
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Sync Library"
+msgstr ""
+
+#. translators: %1$s are white label strings.
+#: inc/includes/templates.php:200
+#: inc/includes/templates.php:327
+#: inc/includes/templates.php:415
+msgid "This premium template is accessible with %1$s \"Premium\" Package."
+msgstr ""
+
+#: inc/includes/templates.php:244
+#: inc/includes/templates.php:316
+msgid "INSERT"
+msgstr ""
+
+#. translators: %1$s External Link
+#: inc/includes/templates.php:261
+#: inc/includes/templates.php:437
+msgid "Don't see a template you would like to import? %s"
+msgstr ""
+
+#: inc/includes/templates.php:264
+#: inc/includes/templates.php:347
+#: inc/includes/templates.php:440
+#: inc/includes/templates.php:501
+msgid "Back to Templates"
+msgstr ""
+
+#: inc/includes/templates.php:454
+msgid "Insert"
+msgstr ""
+
+#: inc/includes/templates.php:472
+msgid "This starter site requires premium plugins. As these are third party premium plugins, you'll need to purchase, install and activate them first."
+msgstr ""
+
+#: inc/includes/templates.php:480
+msgid "Skip & Import"
+msgstr ""
+
+#: inc/includes/templates.php:481
+msgid "Cancel"
+msgstr ""
+
+#: inc/includes/templates.php:556
+msgid "Import "
+msgstr ""
+
+#: inc/includes/templates.php:557
+msgid "Save "
+msgstr ""
+
+#: inc/includes/white-label.php:29
+msgid "Plugin Name:"
+msgstr ""
+
+#: inc/includes/white-label.php:34
+msgid "Plugin Description:"
+msgstr ""
+
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:215
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:216
+msgid "AI Builder"
+msgstr ""
+
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:405
+msgid "Installed! Activating.."
+msgstr ""
+
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:406
+msgid "Activating..."
+msgstr ""
+
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:407
+msgid "Activated!"
+msgstr ""
+
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:408
+msgid "Installing..."
+msgstr ""
+
+#. translators: %1$s: team name, %2$s: plan name
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:423
+msgid "Your current active organization is %1$s, which is on the %2$s plan. You have reached the maximum number of sites allowed to be created on %2$s plan."
+msgstr ""
+
+#. translators: %1$s: team name
+#. translators: %s: team name
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:432
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+msgid "Please upgrade the plan for %s in order to create more sites."
+msgstr ""
+
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:438
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+msgid "Unlock Full Power"
+msgstr ""
+
+#: inc/lib/ai-builder/ai-builder-plugin-loader.php:441
+msgid "Contact Support"
+msgstr ""
+
+#: inc/lib/ai-builder/inc/ajax/ajax-errors.php:41
+msgid "Sorry, you are not allowed to do this operation."
+msgstr ""
+
+#: inc/lib/ai-builder/inc/ajax/ajax-errors.php:42
+msgid "Nonce validation failed"
+msgstr ""
+
+#: inc/lib/ai-builder/inc/ajax/ajax-errors.php:43
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Sorry, something went wrong."
+msgstr ""
+
+#: inc/lib/ai-builder/inc/ajax/importer.php:321
+#: inc/lib/ai-builder/inc/traits/helper.php:253
+#: inc/lib/starter-templates-importer/importer/wxr-importer/st-wxr-importer.php:133
+msgid "Permission Denied!"
+msgstr ""
+
+#: inc/lib/ai-builder/inc/ajax/importer.php:345
+msgid "There was an error importing the Spectra settings."
+msgstr ""
+
+#: inc/lib/ai-builder/inc/ajax/importer.php:369
+msgid "There was an error cloning the surecart store."
+msgstr ""
+
+#: inc/lib/ai-builder/inc/ajax/importer.php:415
+#: inc/lib/ai-builder/inc/ajax/importer.php:447
+#: inc/lib/ai-builder/inc/ajax/plugin.php:130
+msgid "Required function not found"
+msgstr ""
+
+#: inc/lib/ai-builder/inc/ajax/importer.php:488
+#: inc/lib/ai-builder/inc/classes/importer/class-ai-builder-fse-importer.php:44
+#: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php:240
+#: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php:388
+msgid "You are not authorized to perform this action."
+msgstr ""
+
+#: inc/lib/ai-builder/inc/ajax/importer.php:498
+#: inc/lib/ai-builder/inc/classes/importer/class-ai-builder-fse-importer.php:54
+msgid "Received empty parameters."
+msgstr ""
+
+#. Translators: %s is URL.
+#: inc/lib/ai-builder/inc/ajax/plugin.php:221
+#: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php:133
+msgid "Invalid URL - %s"
+msgstr ""
+
+#: inc/lib/ai-builder/inc/ajax/plugin.php:325
+msgid "Theme Activated"
+msgstr ""
+
+#: inc/lib/ai-builder/inc/ajax/plugin.php:354
+msgid "Failed to set the site language."
+msgstr ""
+
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:82
+#: inc/lib/gutenberg-templates/inc/api/blocks.php:71
+#: inc/lib/gutenberg-templates/inc/api/description.php:87
+#: inc/lib/gutenberg-templates/inc/api/do-it-later.php:69
+#: inc/lib/gutenberg-templates/inc/api/favorite.php:96
+#: inc/lib/gutenberg-templates/inc/api/images.php:93
+#: inc/lib/gutenberg-templates/inc/api/initialize-setup.php:71
+#: inc/lib/gutenberg-templates/inc/api/keywords.php:87
+#: inc/lib/gutenberg-templates/inc/api/page-description.php:97
+#: inc/lib/gutenberg-templates/inc/api/pages.php:74
+#: inc/lib/gutenberg-templates/inc/api/revoke-access.php:74
+#: inc/lib/gutenberg-templates/inc/api/settings.php:92
+#: inc/lib/gutenberg-templates/inc/classes/ast-block-templates-zipwp-api.php:77
+#: inc/lib/nps-survey/classes/nps-survey-script.php:203
+#: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php:78
+#: inc/lib/onboarding/classes/class-astra-sites-zipwp-integration.php:47
+#: inc/lib/zipwp-images/classes/zipwp-images-api.php:92
+msgid "Sorry, you are not allowed to do that."
+msgstr ""
+
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:540
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:634
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:725
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:834
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:926
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:1018
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:1097
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:1168
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:1244
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:1324
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:1404
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:1486
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:1563
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:1628
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:1693
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:1764
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:1830
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:1857
+#: inc/lib/gutenberg-templates/inc/api/blocks.php:92
+#: inc/lib/gutenberg-templates/inc/api/description.php:107
+#: inc/lib/gutenberg-templates/inc/api/favorite.php:135
+#: inc/lib/gutenberg-templates/inc/api/images.php:113
+#: inc/lib/gutenberg-templates/inc/api/keywords.php:107
+#: inc/lib/gutenberg-templates/inc/api/page-description.php:117
+#: inc/lib/gutenberg-templates/inc/api/revoke-access.php:95
+#: inc/lib/gutenberg-templates/inc/api/settings.php:131
+#: inc/lib/gutenberg-templates/inc/classes/ast-block-templates-zipwp-api.php:138
+#: inc/lib/gutenberg-templates/inc/classes/ast-block-templates-zipwp-api.php:197
+#: inc/lib/nps-survey/classes/nps-survey-script.php:224
+#: inc/lib/nps-survey/classes/nps-survey-script.php:304
+#: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php:159
+#: inc/lib/onboarding/classes/class-astra-sites-zipwp-api.php:232
+#: inc/lib/zipwp-images/classes/zipwp-images-api.php:169
+msgid "Nonce verification failed."
+msgstr ""
+
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:785
+#: inc/lib/starter-templates-importer/importer/st-importer.php:228
+msgid "There was an error downloading the XML file."
+msgstr ""
+
+#: inc/lib/ai-builder/inc/classes/zipwp/class-ai-builder-zipwp-api.php:797
+#: inc/lib/ai-builder/inc/traits/helper.php:565
+#: inc/lib/ai-builder/inc/traits/helper.php:601
+#: inc/lib/ai-builder/inc/traits/helper.php:644
+#: inc/lib/ai-builder/inc/traits/helper.php:682
+#: inc/lib/ai-builder/inc/traits/helper.php:717
+#: inc/lib/ai-builder/inc/traits/helper.php:751
+#: inc/lib/ai-builder/inc/traits/helper.php:784
+#: inc/lib/ai-builder/inc/traits/helper.php:827
+msgid "Required class not found."
+msgstr ""
+
+#: inc/lib/ai-builder/inc/traits/helper.php:203
+msgid "You do not have permission to perform this action."
+msgstr ""
+
+#: inc/lib/ai-builder/inc/traits/helper.php:223
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Please contact the hosting service provider to help you update the permissions so that you can successfully import a complete template."
+msgstr ""
+
+#: inc/lib/ai-builder/inc/traits/helper.php:438
+msgid "Insufficient Permission. Please contact your Super Admin to allow the install required plugin permissions."
+msgstr ""
+
+#: inc/lib/ai-builder/inc/traits/helper.php:498
+msgid "Error: You don't have the required permissions to install plugins."
+msgstr ""
+
+#: inc/lib/ai-builder/inc/traits/helper.php:543
+msgid "Plugin Activated"
+msgstr ""
+
+#: inc/lib/ai-builder/inc/traits/helper.php:560
+msgid "User does not have permission!"
+msgstr ""
+
+#: inc/lib/ai-builder/inc/traits/helper.php:617
+msgid "Site options Imported!"
+msgstr ""
+
+#: inc/lib/ai-builder/inc/traits/helper.php:792
+msgid "Deleted Widgets!"
+msgstr ""
+
+#: inc/lib/ai-builder/inc/traits/helper.php:823
+msgid "Customizer data is empty!"
+msgstr ""
+
+#: inc/lib/astra-notices/class-astra-notices.php:119
+msgid "WordPress Nonce not validated."
+msgstr ""
+
+#: inc/lib/bsf-quick-links/class-bsf-quick-links.php:105
+msgid "Quick Links"
+msgstr ""
+
+#: inc/lib/class-astra-sites-zipwp-images.php:62
+msgid "Free Images"
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/api/favorite.php:178
+msgid "Action Completed"
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/api/favorite.php:178
+msgid "Action failed"
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/api/settings.php:182
+msgid "Sorry, settings are not saved."
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/classes/ast-block-templates-notices.php:49
+msgid "File Permissions Needed - Importing patterns, pages, and templates from Design Library requires proper file permissions. For guidance on resolving this issue and ensuring smooth importing processes, please refer to the accompanying documentation."
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/classes/ast-block-templates-notices.php:53
+msgid "Doc: "
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/classes/ast-block-templates-notices.php:53
+msgid "Resolve file permission issue"
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/importer/plugin.php:269
+#: inc/lib/gutenberg-templates/inc/importer/plugin.php:273
+#: inc/lib/gutenberg-templates/inc/importer/plugin.php:436
+msgid "Something went wrong"
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/importer/plugin.php:804
+msgid "Something wrong"
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/importer/plugin.php:988
+msgid "Design Library"
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/traits/helper.php:222
+msgid "The Zip AI Endpoint was not declared"
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/traits/helper.php:232
+msgid "The Zip AI Auth Token is not set."
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/traits/helper.php:254
+msgid "The Zip AI Middleware is not responding."
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/traits/helper.php:264
+msgid "The Zip AI Middleware encountered an error."
+msgstr ""
+
+#: inc/lib/onboarding/class-onboarding-loader.php:306
+msgid "Disable Elementor Page Builder Templates in Starter Templates"
+msgstr ""
+
+#: inc/lib/onboarding/class-onboarding-loader.php:310
+msgid "Disable Beaver Builder Page Builder Templates in Starter Templates"
+msgstr ""
+
+#: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php:82
+msgid "The XMLReader library is not available. This library is required to import the content for the website."
+msgstr ""
+
+#. translators: %d is the post ID
+#: inc/lib/onboarding/classes/class-astra-sites-onboarding-setup.php:147
+msgid "Invalid Post ID - %d"
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/batch/st-batch-processing-gutenberg.php:108
+msgid "Post ids are empty"
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/batch/st-batch-processing-gutenberg.php:118
+msgid "Gutenberg batch completed."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/batch/st-batch-processing-misc.php:67
+msgid "Template Type is not a AI."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/batch/st-batch-processing-misc.php:85
+msgid "Required flags are not set."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/batch/st-replace-images.php:104
+msgid "Astra functions not available"
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/batch/st-replace-images.php:133
+msgid "Image Replacement completed."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/batch/st-replace-images.php:152
+msgid "Posts are empty. Nothing to process."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/batch/st-replace-images.php:165
+msgid "Posts are replaced"
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/batch/st-replace-images.php:460
+msgid "Pages are empty"
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/batch/st-replace-images.php:487
+msgid "Pages are replaced"
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/helpers/wp-background-process-astra-site-importer.php:87
+msgid "All processes are complete"
+msgstr ""
+
+#. translators: %d are the minutes.
+#: inc/lib/starter-templates-importer/importer/helpers/wp-background-process.php:444
+msgid "Every %d Minutes"
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/st-importer.php:60
+msgid "uuid is empty."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/st-importer.php:72
+msgid "Import process start flof set successfully."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/st-importer.php:89
+msgid "Can't import Spectra Settings. Spectra Plugin is not activated."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/st-importer.php:96
+msgid "Spectra settings are empty."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/st-importer.php:104
+msgid "Spectra settings imported successfully."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/st-importer.php:124
+msgid "Id is empty."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/st-importer.php:131
+msgid "SureCart\\Models\\ProvisionalAccount::create function is not callable."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/st-importer.php:166
+msgid "Customizer data is empty."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/st-importer.php:184
+msgid "Customizer data imported successfully."
+msgstr ""
+
+#. Translators: %s is WXR URL.
+#: inc/lib/starter-templates-importer/importer/st-importer.php:203
+msgid "Invalid WXR Request URL - %s"
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/st-importer.php:264
+msgid "Site options are empty!"
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/st-importer.php:314
+msgid "Options imported successfully."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/st-importer.php:347
+msgid "Widget data is empty!"
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/st-importer.php:356
+msgid "Widgets imported successfully."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:238
+msgid "Could not open the file for parsing"
+msgstr ""
+
+#. translators: %1$s is WXR version, %2$s is max supported WXR version.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:276
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:395
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:471
+msgid "This WXR file (version %1$s) is newer than the importer (version %2$s) and may not be supported. Please consider updating."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:622
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:682
+msgid "Invalid author mapping"
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:783
+msgid "Cannot import auto-draft posts"
+msgstr ""
+
+#. translators: %1$s is the import message, %2$s is post type.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:883
+msgid "Failed to import \"%1$s\": Invalid post type %2$s"
+msgstr ""
+
+#. translators: %1$s single post type, %2$s is post title.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:895
+msgid "%1$s \"%2$s\" already exists."
+msgstr ""
+
+#. translators: %s is post title
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:993
+msgid "Skipping attachment \"%s\", fetching attachments disabled"
+msgstr ""
+
+#. translators: %1$s is the post title, %2$s is post type.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:1017
+msgid "Failed to import \"%1$s\" (%2$s)"
+msgstr ""
+
+#. translators: %1$s is the post title, %2$s is post type.
+#. translators: %1$s is the taxonomy name, %2$s is taxonomy.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:1052
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:1939
+msgid "Imported \"%1$s\" (%2$s)"
+msgstr ""
+
+#. translators: %1$s is the original post id, %2$s is old post id.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:1060
+msgid "Post %1$d remapped to %2$d"
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:1211
+msgid "Invalid file type"
+msgstr ""
+
+#. translators: %s user login name
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:1716
+msgid "Failed to import user \"%s\""
+msgstr ""
+
+#. translators: %s user login name
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:1740
+msgid "Imported user \"%s\""
+msgstr ""
+
+#. translators: %1$s original user Id, %2$s old user Id.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:1747
+msgid "User %1$d remapped to %2$d"
+msgstr ""
+
+#. translators: %1$s is the taxonomy, %2$s is taxonomy name.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:1912
+msgid "Failed to import %1$s %2$s"
+msgstr ""
+
+#. translators: %1$s is term original id, %2$s is term id.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:1947
+msgid "Term %1$d remapped to %2$d"
+msgstr ""
+
+#. translators: %1$s is error code, %2$s is error code header, %3$s is url.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2005
+msgid "Remote server returned %1$d %2$s for %3$s"
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2018
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2023
+msgid "Zero size file downloaded"
+msgstr ""
+
+#. translators: %s max file size.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2030
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#. translators: %d is post id.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2063
+msgid "Running post-processing for post %d"
+msgstr ""
+
+#. translators: %1$s is post title, %2$s is post id.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2079
+msgid "Could not find the post parent for \"%1$s\" (post #%2$d)"
+msgstr ""
+
+#. translators: %1$d is post id, %2$d is parent post id.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2087
+msgid "Post %1$d was imported with parent %2$d, but could not be found"
+msgstr ""
+
+#. translators: %1$s is the post title, %2$s is post id.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2104
+msgid "Could not find the author for \"%1$s\" (post #%2$d)"
+msgstr ""
+
+#. translators: %1$d is post id, %2$s is author slug.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2112
+msgid "Post %1$d was imported with author \"%2$s\", but could not be found"
+msgstr ""
+
+#. translators: %d is post id.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2141
+msgid "Post %d was marked for post-processing, but none was required."
+msgstr ""
+
+#. translators: %1$s is the post title, %2$s is post id.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2158
+msgid "Could not update \"%1$s\" (post #%2$d) with mapped data"
+msgstr ""
+
+#. translators: %1$s is the post title, %2$s is post id.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2212
+msgid "Could not find the menu object for \"%1$s\" (post #%2$d)"
+msgstr ""
+
+#. translators: %1$s is post id, %2$s is post object id, %3$s is menu type.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2220
+msgid "Post %1$d was imported with object \"%2$d\" of type \"%3$s\", but could not be found"
+msgstr ""
+
+#. translators: %d is comment id.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2251
+msgid "Could not find the comment parent for comment #%d"
+msgstr ""
+
+#. translators: %1$s is comment id, %2$s is parent comment id.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2258
+msgid "Comment %1$d was imported with parent %2$d, but could not be found"
+msgstr ""
+
+#. translators: %d is comment id.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2275
+msgid "Could not find the author for comment #%d"
+msgstr ""
+
+#. translators: %1$d is comment id, %2$d is author id.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2282
+msgid "Comment %1$d was imported with author %2$d, but could not be found"
+msgstr ""
+
+#. translators: %d is comment id.
+#: inc/lib/starter-templates-importer/importer/wxr-importer.php:2302
+msgid "Could not update comment #%d with mapped data"
+msgstr ""
+
+#: inc/lib/starter-templates-importer/importer/wxr-importer/st-wxr-importer.php:805
+msgid "Import complete!"
+msgstr ""
+
+#: inc/lib/zipwp-images/classes/zipwp-images-api.php:271
+msgid "Need to send photo ID"
+msgstr ""
+
+#: inc/lib/zipwp-images/classes/zipwp-images-script.php:100
+msgid "ZipWP Images"
+msgstr ""
+
+#: inc/lib/zipwp-images/classes/zipwp-images-script.php:101
+msgid "Search - Ex: flowers"
+msgstr ""
+
+#: inc/lib/zipwp-images/classes/zipwp-images-script.php:102
+msgid "Downloading..."
+msgstr ""
+
+#: inc/lib/zipwp-images/classes/zipwp-images-script.php:103
+msgid "Validating..."
+msgstr ""
+
+#: inc/lib/nps-survey/dist/main.js:1
+#: inc/lib/nps-survey/src/components/steps/nps-rating.jsx:54
+msgid "How likely are you to recommend Starter Templates to your friends or colleagues?"
+msgstr ""
+
+#: inc/lib/nps-survey/dist/main.js:1
+#: inc/lib/nps-survey/src/components/steps/nps-rating.jsx:75
+msgid "Very unlikely"
+msgstr ""
+
+#: inc/lib/nps-survey/dist/main.js:1
+#: inc/lib/nps-survey/src/components/steps/nps-rating.jsx:78
+msgid "Very likely"
+msgstr ""
+
+#: inc/lib/nps-survey/dist/main.js:1
+#: inc/lib/nps-survey/src/components/steps/comment.jsx:36
+msgid "Thank you for your feedback!"
+msgstr ""
+
+#: inc/lib/nps-survey/dist/main.js:1
+#: inc/lib/nps-survey/src/components/steps/comment.jsx:40
+msgid "We value your input. How can we improve your experience?"
+msgstr ""
+
+#: inc/lib/nps-survey/dist/main.js:1
+#: inc/lib/nps-survey/src/components/steps/comment.jsx:73
+msgid "Submit"
+msgstr ""
+
+#: inc/lib/nps-survey/dist/main.js:1
+#: inc/lib/nps-survey/src/components/steps/plugin-rating.jsx:27
+msgid "Thanks a lot for your feedback! 😍"
+msgstr ""
+
+#: inc/lib/nps-survey/dist/main.js:1
+#: inc/lib/nps-survey/src/components/steps/plugin-rating.jsx:34
+msgid "Could you please do us a favor and give us a 5-star rating on WordPress? It would help others choose Starter Templates with confidence. Thank you!"
+msgstr ""
+
+#: inc/lib/nps-survey/dist/main.js:1
+#: inc/lib/nps-survey/src/components/steps/plugin-rating.jsx:48
+msgid "Rate the Plugin"
+msgstr ""
+
+#: inc/lib/nps-survey/dist/main.js:1
+#: inc/lib/nps-survey/src/components/steps/plugin-rating.jsx:61
+msgid "I already did!"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "Change Fonts"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+msgid "Continue"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/main.js:77
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/main.js:102
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:144
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:174
+msgid "Back"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Fetching related demo failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Installing Astra Theme…"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Astra Theme Installed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Astra theme installation failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Search for Starter Templates"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "No favorites added. Press the heart icon to add templates as favorites."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Other suggested Starter Templates"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Block Editor"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/main.js:102
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:174
+msgid "Exit to Dashboard"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "My Favorite"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Library refreshed successfully"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Library refreshed failed!"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Selected Template:"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "SureCart"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "A simple yet powerful e-commerce platform designed to grow your business with effortlessly selling online."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "WooCommerce"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "WooCommerce is an open-source e-commerce plugin for WordPress. It is designed for small to large-sized online merchants using WordPress."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "Remove Logo"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Site Logo"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "Change Logo"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Upload File Here"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "Suggested Dimensions: 180x60 pixels"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "Don’t have a logo? No problem!"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "You can upload it later"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Style 1"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Style 2"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Style 3"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Style 4"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Style 5"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Style 6"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Style 7"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Style 8"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Style 9"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Style 10"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Choose eCommerce Platform"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Choose your preferred e-Commerce platform. Based on your selection, you will receive the account setup and cart options."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "Logo"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "Choose a logo for your site. You can update it anytime later."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Skip & Continue"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "Fonts"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "Colors & Fonts"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "Choose colors and fonts for your site. You can update them anytime later."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "DEFAULT COLORS"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "Change Colors"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "This is a premium template and comes with our Essentials and Business Toolkits. <br/><br/> Get access to this premium template and 100+ more."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "Liked this Starter Template?"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:73
+msgid "Unlock Access"
+msgstr ""
+
+#. translators: %1$s Support page URL.
+#: inc/lib/onboarding/assets/dist/main.js:75
+msgid "<b> Questions? </b> Get in touch with our %1$ssupport team%2$s."
+msgstr ""
+
+#. translators: %1$s Store page URL.
+#: inc/lib/onboarding/assets/dist/main.js:77
+msgid "If you have purchased our Essential or Business Toolkits, please install the premium version of the plugin that you can %1$sdownload%2$s from our store."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:77
+msgid "Already a customer?"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:77
+msgid "If you have purchased our Essential or Business Toolkits, just enter your license key below to import this template."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:77
+msgid "Currently the free version is installed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:77
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "License key"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:77
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Please Enter License Key"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:77
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "1. Installing required theme, plugins, forms, etc"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:77
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "2. Importing pages, menus, posts, etc"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:77
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "3. Setting up customizer settings and the site settings"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:77
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "4. Finalizing last few settings"
+msgstr ""
+
+#. translators: %1$s Time taken %2$s Time Type %3$s Website Url.
+#: inc/lib/onboarding/assets/dist/main.js:79
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:132
+msgid "Your Website is ready and it took just %1$s %2$s to build."
+msgstr ""
+
+#. translators: %1$s Time taken %2$s Time Type %3$s theme name.
+#: inc/lib/onboarding/assets/dist/main.js:81
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:135
+msgid "I just built my website in %1$s %2$s with Starter Templates by %3$s. Can’t believe how easy it was!!! 😍"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:81
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:135
+msgid "Your Website is ready. It took just 25 seconds to build it."
+msgstr ""
+
+#. translators: %1$s theme name.
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "I just built my website with Starter Templates by %1$s in minutes. Can't believe how easy it is! 😍"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Tweet this"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "View Your Website"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Still no luck? Other potential solution:"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "What went wrong?"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "More technical information from console:"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Click here and we’ll try again"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Please report this error&nbsp;"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "&nbsp;so we can fix it."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Importing Content…"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Tell us a little bit about yourself"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Your First Name"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Your Work Email"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "I am…"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Beginner"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Intermediate"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Expert"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "I am building website for…"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Myself/My Company"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "My Client"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "I agree to receive your newsletters and accept the data privacy statement."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Advanced Options"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "Delete Previously imported sites"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "WARNING: Selecting this option will delete all data from the previous import. Choose this option only if this is intended."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "Choose this option only if this is intended.You can find the backup to the current customizer settings at /wp-content/uploads astra-sites"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Install & Activate Astra Theme"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "To import the site in the original format, you would need the Astra theme activated. You can import it with any other theme, but the site might lose some of the design settings and look a bit different."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "Import Customizer Settings"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "Starter Templates customizer serves global settings that give uniform design to the website. Choosing this option will override your current customizer settings."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "Import Widgets"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "Plugins needed to import this template are missing. Required plugins will be installed and activated automatically."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "Import Content"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "Selecting this option will import dummy pages, posts, images, and menus. If you do not want to import dummy content, please uncheck this option."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Share Non-Sensitive Data"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Help our developers build better templates and products for you by sharing anonymous and non-sensitive data about your website."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Learn More"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "Replace Existing Surecart Store"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "Replace the current Surecart store with the imported store's data and settings."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "Select Page Builder"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+msgid "Please choose your preferred page builder from the list below."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:83
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+msgid "What type of website are you building?"
+msgstr ""
+
+#. translators: %1$s: search term.
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:144
+msgid "Starter Templates for %1$s:"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:144
+msgid "Get unlimited access to all Premium Starter Templates and more, at a single low cost!"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/main.js:86
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:144
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:150
+msgid "Are you sure you want to cancel the site import process?"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:144
+msgid "Install & Activate"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:144
+msgid "Activate"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Okay, just one last step…"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:144
+msgid "Submit & Build My Website"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Required plugins missing"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Some required plugins could not be able to be installed/activated due to some limitations coming from this website’s hosting service provider."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "We request you to please install/update the following plugins to proceed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Required plugins -"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Start Importing"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "We're Almost There!"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "The Starter Template you are trying to import requires a few plugins to be installed and activated. Your current PHP version does not match the minimum requirement for these plugins."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "You're close to importing the template. To complete the process, please clear the following conditions."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Skip & Start Importing"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "The import process was interrupted due to the lack of file-system permissions from your host. It is required to import images, XML files, and more required for the template to work."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Current file-system permissions:"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Read Permissions:"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Write Permissions:"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "WP_Filesystem Permissions:"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Resetting posts."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Resetting posts failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Taking settings backup."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Taking settings backup failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Resetting customizer."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Resetting customizer failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Resetting site options."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Resetting site options Failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Resetting widgets."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Resetting widgets JSON parse failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Resetting widgets failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Resetting terms and forms."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Resetting terms and forms failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Gathering posts for deletions."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Resetting posts done."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:84
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "Importing Site Content Failed. - Import Process Interrupted"
+msgstr ""
+
+#. translators: Response importMessage
+#: inc/lib/onboarding/assets/dist/main.js:86
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:150
+msgid "Importing - %1$s"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:86
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:150
+msgid "Starting Import."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:86
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:150
+msgid "Installing Required Plugins."
+msgstr ""
+
+#. translators: Plugin Name.
+#: inc/lib/onboarding/assets/dist/main.js:88
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:153
+msgid "%1$s plugin installed successfully."
+msgstr ""
+
+#. translators: Plugin Name.
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Could not install the plugin - %s"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Reseting site."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Reset for old website is done."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing CartFlows flows."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing CartFlows flows failed due to parse JSON error."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing CartFlows flows Failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing forms."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing forms failed due to parse JSON error."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing forms Failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Customizer failed due to parse JSON error."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Customizer Failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Spectra Settings."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Spectra Settings failed due to parse JSON error."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Spectra Settings Failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Surecart Settings failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Surecart Settings Failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "The XML URL for the site content is empty."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Site Content Failed"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Site Content."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Site Content failed due to parse JSON error."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Site Content Failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Site Options."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Site Options failed due to parse JSON error."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Site Options Failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Widgets."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Widgets failed due to parse JSON error."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Importing Widgets Failed."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Final finishings."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Final finishings failed due to parse JSON error."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:90
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:156
+msgid "Final finishings Failed."
+msgstr ""
+
+#. translators: Plugin Name.
+#: inc/lib/onboarding/assets/dist/main.js:92
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:159
+msgid "Activating %1$s plugin."
+msgstr ""
+
+#. translators: Plugin Name.
+#: inc/lib/onboarding/assets/dist/main.js:94
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:162
+msgid "%1$s activated."
+msgstr ""
+
+#. translators: Plugin name.
+#: inc/lib/onboarding/assets/dist/main.js:96
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:165
+msgid "JSON_Error: Could not activate the required plugin - %1$s."
+msgstr ""
+
+#. translators: Support article URL.
+#: inc/lib/onboarding/assets/dist/main.js:98
+#: inc/lib/onboarding/assets/dist/main.js:102
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:168
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:174
+msgid "<a href=\"%1$s\">Read article</a> to resolve the issue and continue importing template."
+msgstr ""
+
+#. translators: Plugin name.
+#: inc/lib/onboarding/assets/dist/main.js:100
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:171
+msgid "Could not activate the required plugin - %1$s."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:102
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:174
+msgid "Congratulations"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/main.js:102
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:174
+msgid "We are building your website…"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+msgid "AI Website Builder"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Hot!"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Have you tried the new AI WordPress Website Builder?"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+msgid "Experience the future of website building. We offer AI features powered by ZipWP to help you build your website 10x faster."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Syncing"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "What's New?"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "What's new"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Access this template and all others with Essentials & Business Toolkit package starting at just $79."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:123
+msgid "Please enter your licence key."
+msgstr ""
+
+#. translators: %1$s Opening anchor tag %2$s Closing anchor tag.
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:126
+msgid "If you have already purchased the Essential or Business Toolkit, please install the premium version of the Starter Templates plugin from our %1$sstore%2$s."
+msgstr ""
+
+#. translators: %1$s Opening anchor tag %2$s Closing anchor tag.
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Need help? feel free to get in touch with our %1$ssupport team%2$s."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Premium Template"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "You are currently using the Free version."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Get your key here"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Need help?"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Get Access"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Already purchased?"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Use setting"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Change"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Show site title"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Logo width"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Original"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Color Palette"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Font Pair"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Customize"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:129
+msgid "Add your own logo, change color and font."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Visit Dashboard"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "Maintain previous/old data?"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:138
+msgid "It looks like you already have a website made with Starter Templates. Enable this to maintain your old data, including content and images."
+msgstr ""
+
+#. translators: %1$s: team name, %2$s: plan name
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:139
+msgid "Your current active organization is %1$s, which is on the %2$s plan."
+msgstr ""
+
+#. translators: %s: daily limit
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:140
+msgid "%s AI sites"
+msgstr ""
+
+#. translators: %s: daily limit
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:141
+msgid "This plan allows you to generate %s per day, and you have reached this limit."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:141
+msgid "To create more AI websites, you will need to either upgrade your plan or wait until the limit resets."
+msgstr ""
+
+#. translators: %s: plan name
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:142
+msgid "You have reached the maximum number of sites allowed to be created on %s plan."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+msgid "Limit reached"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+msgid "Select features"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+msgid "Skip this step"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+msgid "How would you like to build your website?"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+msgid "Build with AI"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+msgid "Classic Starter Templates"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+msgid "Begin the website-building process with our extensive library of professionally designed templates tailored to meet your requirements."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:143
+msgid "Build with Templates"
+msgstr ""
+
+#. translators: %s: support link
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:147
+msgid "By continuing you agree to our %1$s and %2$s."
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:174
+msgid "Donations"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:174
+msgid "Collect donations online from your website"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:174
+msgid "Automation & Integrations"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:174
+msgid "Automate your website & tasks"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:174
+msgid "Sales Funnels"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:174
+msgid "Boost your sales & maximize your profits"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:174
+msgid "Video Player"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:174
+msgid "Showcase your videos on your website"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:174
+msgid "Free Live Chat"
+msgstr ""
+
+#: inc/lib/onboarding/assets/dist/onboarding/main.js:174
+msgid "Connect with your website visitors for free"
+msgstr ""
+
+#: inc/lib/gutenberg-templates/inc/block/dist/block.json
+msgctxt "block title"
+msgid "Spectra AI"
+msgstr ""
