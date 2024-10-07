@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'lae-icomoon';
-    src: url('fonts/lae-icomoon.ttf?s30zkh') format('truetype'),
-    url('fonts/lae-icomoon.woff?s30zkh') format('woff'),
-    url('fonts/lae-icomoon.svg?s30zkh#lae-icomoon') format('svg');
+    src: url('https://krsahil8825.github.io/myportfolio/wp-content/plugins/addons-for-elementor/assets/css/fonts/lae-icomoon.ttf?s30zkh') format('truetype'),
+    url('https://krsahil8825.github.io/myportfolio/wp-content/plugins/addons-for-elementor/assets/css/fonts/lae-icomoon.woff?s30zkh') format('woff'),
+    url('https://krsahil8825.github.io/myportfolio/wp-content/plugins/addons-for-elementor/assets/css/fonts/lae-icomoon.svg?s30zkh#lae-icomoon') format('svg');
     font-weight: normal;
     font-style: normal;
     font-display: block;

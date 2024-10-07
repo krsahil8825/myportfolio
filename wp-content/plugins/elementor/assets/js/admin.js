@@ -1,4 +1,4 @@
-/*! elementor - v3.23.0 - 05-08-2024 */
+/*! elementor - v3.24.0 - 23-09-2024 */
 /******/ (() => { // webpackBootstrap
 /******/ 	var __webpack_modules__ = ({
 
@@ -961,10 +961,10 @@ exports["default"] = ExperimentsModule;
 
 /***/ }),
 
-/***/ "../modules/floating-buttons/assets/js/admin/floating-buttons.js":
-/*!***********************************************************************!*\
-  !*** ../modules/floating-buttons/assets/js/admin/floating-buttons.js ***!
-  \***********************************************************************/
+/***/ "../modules/floating-buttons/assets/js/floating-buttons/admin/floating-buttons.js":
+/*!****************************************************************************************!*\
+  !*** ../modules/floating-buttons/assets/js/floating-buttons/admin/floating-buttons.js ***!
+  \****************************************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -1045,10 +1045,10 @@ exports["default"] = FloatingButtonsHandler;
 
 /***/ }),
 
-/***/ "../modules/floating-buttons/assets/js/admin/module.js":
-/*!*************************************************************!*\
-  !*** ../modules/floating-buttons/assets/js/admin/module.js ***!
-  \*************************************************************/
+/***/ "../modules/floating-buttons/assets/js/floating-buttons/admin/module.js":
+/*!******************************************************************************!*\
+  !*** ../modules/floating-buttons/assets/js/floating-buttons/admin/module.js ***!
+  \******************************************************************************/
 /***/ ((__unused_webpack_module, exports, __webpack_require__) => {
 
 "use strict";
@@ -1064,7 +1064,7 @@ var _createClass2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtim
 var _inherits2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/inherits */ "../node_modules/@babel/runtime/helpers/inherits.js"));
 var _possibleConstructorReturn2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/possibleConstructorReturn */ "../node_modules/@babel/runtime/helpers/possibleConstructorReturn.js"));
 var _getPrototypeOf2 = _interopRequireDefault(__webpack_require__(/*! @babel/runtime/helpers/getPrototypeOf */ "../node_modules/@babel/runtime/helpers/getPrototypeOf.js"));
-var _floatingButtons = _interopRequireDefault(__webpack_require__(/*! ./floating-buttons */ "../modules/floating-buttons/assets/js/admin/floating-buttons.js"));
+var _floatingButtons = _interopRequireDefault(__webpack_require__(/*! ./floating-buttons */ "../modules/floating-buttons/assets/js/floating-buttons/admin/floating-buttons.js"));
 function _createSuper(Derived) { var hasNativeReflectConstruct = _isNativeReflectConstruct(); return function _createSuperInternal() { var Super = (0, _getPrototypeOf2.default)(Derived), result; if (hasNativeReflectConstruct) { var NewTarget = (0, _getPrototypeOf2.default)(this).constructor; result = Reflect.construct(Super, arguments, NewTarget); } else { result = Super.apply(this, arguments); } return (0, _possibleConstructorReturn2.default)(this, result); }; }
 function _isNativeReflectConstruct() { if (typeof Reflect === "undefined" || !Reflect.construct) return false; if (Reflect.construct.sham) return false; if (typeof Proxy === "function") return true; try { Boolean.prototype.valueOf.call(Reflect.construct(Boolean, [], function () {})); return true; } catch (e) { return false; } }
 var _default = /*#__PURE__*/function (_elementorModules$Mod) {
@@ -2080,7 +2080,7 @@ var _events = _interopRequireDefault(__webpack_require__(/*! elementor-utils/eve
 var _filesUploadHandler = _interopRequireDefault(__webpack_require__(/*! ../editor/utils/files-upload-handler */ "../assets/dev/js/editor/utils/files-upload-handler.js"));
 var _templateControls = _interopRequireDefault(__webpack_require__(/*! ./new-template/template-controls.js */ "../assets/dev/js/admin/new-template/template-controls.js"));
 var _jsonUploadWarningMessage = __webpack_require__(/*! elementor-utils/json-upload-warning-message */ "../assets/dev/js/utils/json-upload-warning-message.js");
-var _module3 = _interopRequireDefault(__webpack_require__(/*! elementor/modules/floating-buttons/assets/js/admin/module */ "../modules/floating-buttons/assets/js/admin/module.js"));
+var _module3 = _interopRequireDefault(__webpack_require__(/*! elementor/modules/floating-buttons/assets/js/floating-buttons/admin/module */ "../modules/floating-buttons/assets/js/floating-buttons/admin/module.js"));
 (function ($) {
   var ElementorAdmin = elementorModules.ViewModule.extend({
     maintenanceMode: null,
@@ -2353,7 +2353,7 @@ var _module3 = _interopRequireDefault(__webpack_require__(/*! elementor/modules/
       if (elementorCommon.config.experimentalFeatures['landing-pages']) {
         new _module.default();
       }
-      if (elementorCommon.config.experimentalFeatures['floating-buttons']) {
+      if (elementorCommon.config.experimentalFeatures.container) {
         new _module3.default();
       }
       this.templateControls = new _templateControls.default();

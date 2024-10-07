@@ -1,4 +1,4 @@
-/*! elementor - v3.23.0 - 05-08-2024 */
+/*! elementor - v3.24.0 - 23-09-2024 */
 "use strict";
 (self["webpackChunkelementor"] = self["webpackChunkelementor"] || []).push([["frontend"],{
 
@@ -104,8 +104,9 @@ module.exports = function ($) {
   if (elementorFrontendConfig.experimentalFeatures['nested-elements']) {
     this.elementsHandlers['nested-accordion.default'] = () => Promise.resolve(/*! import() */).then(__webpack_require__.bind(__webpack_require__, /*! elementor/modules/nested-accordion/assets/js/frontend/handlers/nested-accordion */ "../modules/nested-accordion/assets/js/frontend/handlers/nested-accordion.js"));
   }
-  if (elementorFrontendConfig.experimentalFeatures['floating-buttons']) {
-    this.elementsHandlers['contact-buttons.default'] = () => Promise.resolve(/*! import() */).then(__webpack_require__.bind(__webpack_require__, /*! elementor/modules/floating-buttons/assets/js/frontend/handlers/contact-buttons */ "../modules/floating-buttons/assets/js/frontend/handlers/contact-buttons.js"));
+  if (elementorFrontendConfig.experimentalFeatures.container) {
+    this.elementsHandlers['contact-buttons.default'] = () => Promise.resolve(/*! import() */).then(__webpack_require__.bind(__webpack_require__, /*! elementor/modules/floating-buttons/assets/js/floating-buttons/frontend/handlers/contact-buttons */ "../modules/floating-buttons/assets/js/floating-buttons/frontend/handlers/contact-buttons.js"));
+    this.elementsHandlers['floating-bars-var-1.default'] = () => Promise.resolve(/*! import() */).then(__webpack_require__.bind(__webpack_require__, /*! elementor/modules/floating-buttons/assets/js/floating-bars/frontend/handlers/floating-bars */ "../modules/floating-buttons/assets/js/floating-bars/frontend/handlers/floating-bars.js"));
   }
   const addGlobalHandlers = () => elementorFrontend.hooks.addAction('frontend/element_ready/global', _global.default);
   const addElementsHandlers = () => {
@@ -506,24 +507,6 @@ class Frontend extends elementorModules.ViewModule {
         func.apply(context, args);
       }
     };
-  }
-  waypoint($element, callback, options) {
-    const defaultOptions = {
-      offset: '100%',
-      triggerOnce: true
-    };
-    options = jQuery.extend(defaultOptions, options);
-    const correctCallback = function () {
-      const element = this.element || this,
-        result = callback.apply(element, arguments);
-
-      // If is Waypoint new API and is frontend
-      if (options.triggerOnce && this.destroy) {
-        this.destroy();
-      }
-      return result;
-    };
-    return $element.elementorWaypoint(correctCallback, options);
   }
   muteMigrationTraces() {
     jQuery.migrateMute = true;
@@ -1446,32 +1429,65 @@ class AssetsLoader {
   load(type, key) {
     const assetData = AssetsLoader.assets[type][key];
     if (!assetData.loader) {
-      assetData.loader = new Promise(resolve => {
-        const element = 'style' === type ? this.getStyleElement(assetData.src) : this.getScriptElement(assetData.src);
-        element.onload = () => resolve(true);
-        const parent = 'head' === assetData.parent ? assetData.parent : 'body';
-        document[parent].appendChild(element);
-      });
+      assetData.loader = this.isAssetLoaded(assetData, type) ? Promise.resolve(true) : this.loadAsset(assetData, type);
     }
     return assetData.loader;
   }
+  isAssetLoaded(assetData, assetType) {
+    const tag = 'script' === assetType ? 'script' : 'link',
+      filePath = `${tag}[src="${assetData.src}"]`,
+      assetElements = document.querySelectorAll(filePath);
+    return !!assetElements?.length;
+  }
+  loadAsset(assetData, assetType) {
+    return new Promise(resolve => {
+      const element = 'style' === assetType ? this.getStyleElement(assetData.src) : this.getScriptElement(assetData.src);
+      element.onload = () => resolve(true);
+      this.appendAsset(assetData, element);
+    });
+  }
+  appendAsset(assetData, element) {
+    const beforeElement = document.querySelector(assetData.before);
+    if (!!beforeElement) {
+      beforeElement.insertAdjacentElement('beforebegin', element);
+      return;
+    }
+    const parent = 'head' === assetData.parent ? assetData.parent : 'body';
+    document[parent].appendChild(element);
+  }
 }
 exports["default"] = AssetsLoader;
+const assetsUrl = elementorFrontendConfig.urls.assets;
 const fileSuffix = elementorFrontendConfig.environmentMode.isScriptDebug ? '' : '.min';
-const swiperSource = elementorFrontendConfig.experimentalFeatures.e_swiper_latest ? `${elementorFrontendConfig.urls.assets}lib/swiper/v8/swiper${fileSuffix}.js?ver=8.4.5` : `${elementorFrontendConfig.urls.assets}lib/swiper/swiper${fileSuffix}.js?ver=5.3.6`;
+const pluginVersion = elementorFrontendConfig.version;
+const swiperJsSource = elementorFrontendConfig.experimentalFeatures.e_swiper_latest ? `${assetsUrl}lib/swiper/v8/swiper${fileSuffix}.js?ver=8.4.5` : `${assetsUrl}lib/swiper/swiper${fileSuffix}.js?ver=5.3.6`;
+const swiperCssSource = elementorFrontendConfig.experimentalFeatures.e_swiper_latest ? `${assetsUrl}lib/swiper/v8/css/swiper${fileSuffix}.css?ver=8.4.5` : `${assetsUrl}lib/swiper/css/swiper${fileSuffix}.css?ver=5.3.6`;
 AssetsLoader.assets = {
   script: {
     dialog: {
-      src: `${elementorFrontendConfig.urls.assets}lib/dialog/dialog${fileSuffix}.js?ver=4.9.0`
+      src: `${assetsUrl}lib/dialog/dialog${fileSuffix}.js?ver=4.9.3`
     },
     'share-link': {
-      src: `${elementorFrontendConfig.urls.assets}lib/share-link/share-link${fileSuffix}.js?ver=${elementorFrontendConfig.version}`
+      src: `${assetsUrl}lib/share-link/share-link${fileSuffix}.js?ver=${pluginVersion}`
     },
     swiper: {
-      src: swiperSource
+      src: swiperJsSource
     }
   },
-  style: {}
+  style: {
+    swiper: {
+      src: swiperCssSource,
+      parent: 'head'
+    },
+    'e-lightbox': {
+      src: `${assetsUrl}css/conditionals/lightbox${fileSuffix}.css?ver=${pluginVersion}`
+    },
+    dialog: {
+      src: `${assetsUrl}css/conditionals/dialog${fileSuffix}.css?ver=${pluginVersion}`,
+      parent: 'head',
+      before: '#elementor-frontend-css'
+    }
+  }
 };
 
 /***/ }),
@@ -1590,20 +1606,25 @@ class LightboxManager extends elementorModules.ViewModule {
           return resolveLightbox(new LightboxModule());
         });
       }),
-      dialogPromise = elementorFrontend.utils.assetsLoader.load('script', 'dialog'),
-      shareLinkPromise = elementorFrontend.utils.assetsLoader.load('script', 'share-link');
-    return Promise.all([lightboxPromise, dialogPromise, shareLinkPromise]).then(() => lightboxPromise);
+      dialogScriptPromise = elementorFrontend.utils.assetsLoader.load('script', 'dialog'),
+      dialogStylePromise = elementorFrontend.utils.assetsLoader.load('style', 'dialog'),
+      shareLinkPromise = elementorFrontend.utils.assetsLoader.load('script', 'share-link'),
+      swiperStylePromise = elementorFrontend.utils.assetsLoader.load('style', 'swiper'),
+      lightboxStylePromise = elementorFrontend.utils.assetsLoader.load('style', 'e-lightbox');
+    return Promise.all([lightboxPromise, dialogScriptPromise, dialogStylePromise, shareLinkPromise, swiperStylePromise, lightboxStylePromise]).then(() => lightboxPromise);
   }
   getDefaultSettings() {
     return {
       selectors: {
-        links: 'a, [data-elementor-lightbox]'
+        links: 'a, [data-elementor-lightbox]',
+        slideshow: '[data-elementor-lightbox-slideshow]'
       }
     };
   }
   getDefaultElements() {
     return {
-      $links: jQuery(this.getSettings('selectors.links'))
+      $links: jQuery(this.getSettings('selectors.links')),
+      $slideshow: jQuery(this.getSettings('selectors.slideshow'))
     };
   }
   isLightboxLink(element) {
@@ -1614,6 +1635,9 @@ class LightboxManager extends elementorModules.ViewModule {
     const generalOpenInLightbox = elementorFrontend.getKitSettings('global_image_lightbox'),
       currentLinkOpenInLightbox = element.dataset.elementorOpenLightbox;
     return 'yes' === currentLinkOpenInLightbox || generalOpenInLightbox && 'no' !== currentLinkOpenInLightbox;
+  }
+  isLightboxSlideshow() {
+    return 0 !== this.elements.$slideshow.length;
   }
   async onLinkClick(event) {
     const element = event.currentTarget,
@@ -1647,7 +1671,9 @@ class LightboxManager extends elementorModules.ViewModule {
     if (elementorFrontend.isEditMode()) {
       return;
     }
-
+    this.maybeActivateLightboxOnLink();
+  }
+  maybeActivateLightboxOnLink() {
     // Detecting lightbox links on init will reduce the time of waiting to the lightbox to be display on slow connections.
     this.elements.$links.each((index, element) => {
       if (this.isLightboxLink(element)) {
